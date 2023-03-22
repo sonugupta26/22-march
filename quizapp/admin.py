@@ -8,3 +8,7 @@ class PostAdmin(admin.ModelAdmin):
 @admin.register(QuizQuestion)
 class PostAdmin(admin.ModelAdmin):
     list_display = ("category",)
+
+
+
+    name=sonu
