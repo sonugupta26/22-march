@@ -5,10 +5,12 @@ from quizapp.models import QuizCategory,QuizQuestion
 class PostAdmin(admin.ModelAdmin):
     list_display = ("detail",)
 
-@admin.register(QuizQuestion)
-class PostAdmin(admin.ModelAdmin):
-    list_display = ("category",)
+# @admin.register(QuizQuestion)
+# class PostAdmin(admin.ModelAdmin):
+#     list_display = ("category",)
 
 
 
     name=sonu
+
+    name=rahulkumargupta
